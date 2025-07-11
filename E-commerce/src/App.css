@@ -1,3 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-[#1a2236] text-white;
+  background-color: #1a2236;
+  color: #fff;
+}
+
+main, .container, .max-w-2xl, .max-w-3xl {
+  color: #fff;
+}
+
+
+.bg-white, .bg-gradient-to-br, .bg-gradient-to-r {
+  color: #1a2236;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
